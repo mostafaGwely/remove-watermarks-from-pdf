@@ -11,7 +11,9 @@ remove watermarks from pdf using python opencv
 
 python wmremove.py logo.jpg input.pdf output.pdf 
 
-### notes : 
+### limitations: 
 
-you must have one blank page from the pdf that has the logo on it __see `logo.jpg`__
+- you must have one blank page which has the same size as standard pdf pages and contains the logo on it __see `logo.jpg`__
+
+- the output is a gray pdf 
 
