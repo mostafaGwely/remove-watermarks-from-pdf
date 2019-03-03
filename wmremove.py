@@ -24,8 +24,8 @@ while True:
 		sample = c.resize(sample,(logo.shape[1],logo.shape[0]))
 		result = c.subtract(logo ,sample)
 		result = c.bitwise_not(result)
-		ret,result = c.threshold(result,100,250 ,c.THRESH_BINARY)
-		result = c.blur(result,(3,3))
+# 		ret,result = c.threshold(result,100,250 ,c.THRESH_BINARY)
+# 		result = c.blur(result,(3,3))
 
 		c.imwrite('./images/page_'+str(p)+'.jpg',result)
 		temp = 100*p/300.0 
