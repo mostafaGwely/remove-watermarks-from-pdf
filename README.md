@@ -5,11 +5,15 @@ remove watermarks from pdf using python opencv
 
 - img2pdf library `python -m pip install img2pdf` 
 
-- pdf2image `python -m pip install pdf2image`
+- pdf2image library `python -m pip install pdf2image`
+
+- fpdf library `python -m pip install fpdf`
+
+
 
 ### run
 
-python wmremove.py logo.jpg input.pdf output.pdf 
+`python wmremove.py logo.jpg input.pdf output.pdf` 
 
 ### limitations: 
 
